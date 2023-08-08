@@ -1,0 +1,58 @@
+@font-face {
+    font-family: Ghotam;
+    src: url(../Fonts/gotham/GothamMedium_1.ttf);
+}
+/* EDIT BOOTSTRAP CLASS'S */
+.form-control::placeholder{
+    color: rgb(174, 174, 174);
+}
+
+.nav-link{
+    color: rgb(174, 174, 174);
+}
+
+.link-selected{
+    border-bottom: solid #1db954 3px;
+    color: white;
+}
+
+.nav-link:hover{
+    color: rgb(233, 233, 233);
+}
+
+/* CODES */
+
+::-webkit-scrollbar{
+    width: 0%;
+}
+
+body{
+    font-family: Ghotam;
+    background: rgb(0,0,0);
+    background: linear-gradient(0deg, rgba(0,0,0,1) 0%, rgb(73, 27, 67) 49%, rgb(112, 27, 86) 100%);
+    overflow: hidden;
+}
+
+#feed{
+    height: 80vh;
+    overflow-x: hidden;
+    overflow-y: scroll;
+}
+
+#logo{
+    width: 40px;
+    height: 40px;
+}
+
+.images img{
+    width: 100%;
+    height: 100%;
+}
+
+#musicPlayer{
+    height: 100px;
+    position: absolute;
+    left: 0%;
+    bottom: 0%;
+    background-color: rgb(61, 61, 61);
+}
