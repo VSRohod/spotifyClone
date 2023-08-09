@@ -1,6 +1,6 @@
 @font-face {
     font-family: Ghotam;
-    src: url(../Fonts/gotham/GothamMedium_1.ttf);
+    src: url(../../Fonts/gotham/GothamMedium_1.ttf);
 }
 /* EDIT BOOTSTRAP CLASS'S */
 .form-control::placeholder{
@@ -21,15 +21,9 @@
 }
 
 /* CODES */
-
-::-webkit-scrollbar{
-    width: 0%;
-}
-
 body{
     font-family: Ghotam;
     background: rgb(0,0,0);
-    background: linear-gradient(0deg, rgba(0,0,0,1) 0%, rgb(73, 27, 67) 49%, rgb(112, 27, 86) 100%);
     overflow: hidden;
 }
 
@@ -37,6 +31,8 @@ body{
     height: 80vh;
     overflow-x: hidden;
     overflow-y: scroll;
+    -ms-overflow-style: none;
+    scrollbar-width: none;
 }
 
 #logo{
@@ -55,4 +51,19 @@ body{
     left: 0%;
     bottom: 0%;
     background-color: rgb(61, 61, 61);
+}
+
+.iconsPlay{
+    width: 50px;
+    height: 100%;
+}
+
+
+/* WEBKITS */
+::-webkit-scrollbar{
+    width: 0%;
+}
+
+#feed::-webkit-scrollbar{
+    display: none;
 }
