@@ -3,9 +3,6 @@
     src: url(../../Fonts/gotham/GothamMedium_1.ttf);
 }
 /* EDIT BOOTSTRAP CLASS'S */
-.form-control::placeholder{
-    color: rgb(174, 174, 174);
-}
 
 .nav-link{
     color: rgb(174, 174, 174);
@@ -67,3 +64,16 @@ body{
 #feed::-webkit-scrollbar{
     display: none;
 }
+
+.form-control::placeholder{
+    color: rgb(174, 174, 174);
+}
+
+.form-control:focus{
+    border: none;
+    box-shadow: none;
+}
+
+
+
+
